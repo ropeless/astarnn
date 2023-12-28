@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source and Header Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source and Header Files\win">
+      <UniqueIdentifier>{e8562436-cb7f-4cf5-af3d-a88fe1e0a9ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AStarProbes.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hash.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AStarLattice.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AStarNN_C.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AStarNN.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src_win\dllmain.cpp">
+      <Filter>Source and Header Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src_win\stdafx.cpp">
+      <Filter>Source and Header Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WorkBuff.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\version.cpp">
+      <Filter>Source and Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Deleter.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PointSet.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hash.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AStarProbes.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PriorityQueue.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CostSet.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AStarLattice.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AStarNN_C.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AStarNN.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src_win\stdafx.h">
+      <Filter>Source and Header Files\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src_win\targetver.h">
+      <Filter>Source and Header Files\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WorkBuff.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AStarIndex.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
+      <Filter>Source and Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
